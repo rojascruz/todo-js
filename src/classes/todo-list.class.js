@@ -52,16 +52,6 @@ export class TodoList {
 
     cargarLocalStorage() {
 
-    //     if (localStorage.getItem('todo')) {
-
-    //         this.todos = JSON.parse(localStorage.getItem('todo'));
-    //         console.log('cargarLocal: ', this.todos);
-
-    //     }else {
-    //         this.todos = [];
-    //     }
-    // }
-
     this.todos = (localStorage.getItem('todo')) 
                     ? JSON.parse(localStorage.getItem('todo')) 
                     : [];
